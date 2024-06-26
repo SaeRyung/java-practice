@@ -19,7 +19,7 @@ public class Ex04 {
         for(int num:nums){
             sum += num;
         }
-        return sum/ nums.length;
+        return sum/nums.length;
     }
 
     //  자바의 메소드는 하나의 값만 반환 가능

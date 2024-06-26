@@ -8,6 +8,7 @@ public class Ex05 {
 
         double avg = getAverage(3, 91, 14, 27, 4);
         //  💡 배열을 넣으면 자동으로 펼쳐져 인식됨
+        //  배열로 선언해도 문제없이 작동
         int[] numbers = {3, 91, 14, 27, 4};
         double avgOfArr = getAverage(numbers);
 
@@ -16,7 +17,7 @@ public class Ex05 {
 
         String[] kids = {"나루토", "사스케", "사쿠라"};
 
-        String class3DescArr = descClass(3, "목아진", String...kids);
+        String class3DescArr = descClass(3, "목이진", kids);
     }
 
     //  💡 ... 연산자 : 해당 위치 뒤로 오는 연산자들을 배열로 묶음
@@ -30,7 +31,8 @@ public class Ex05 {
     }
     /////////////////////////////
     //  ⭐️ 다른(정해진) 인자들과 사용시 맨 마지막에 놓을 것
-    static String descClass(int classNo, String teacher, String kids){
+    //  마지막 한번만 사용가능, String ...teacher, String...kids X
+    static String descClass(int classNo, String teacher, String...kids){
         return "%d 반의 담임은 %s 선생님, 원생들은 %s 입니다.".formatted(classNo, teacher, String.join(", ", kids));
     }
 }
