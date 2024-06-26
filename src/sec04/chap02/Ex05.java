@@ -35,5 +35,7 @@ public class Ex05 {
 
         String result = holidays == null ? "(잘못된 월입니다.)":"분기 내 휴일: " + holidays.substring(0, holidays.lastIndexOf(", "));
         //  끝에 ", "을 제거하기 위한 코드
+
+        System.out.println(result);
     }
 }
