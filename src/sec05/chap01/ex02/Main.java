@@ -12,14 +12,18 @@ public class Main {
         store2.no = 17;  // 🔴
         store2.name = "강남";
 
-        //  인스턴스 필드들에 접근
+        //  인스턴스 필드들에 접근해 필요한 정보 추출가능
         int store1No = store1.no;
         String store2Name = store2.name;
 
+        // 매장 기능 사용
         //  인스턴스의 메소드 호출
         //  인스턴스 + . => 사용할 수 있는 메소드
         String store1Intro = store1.intro();
         String store2Intro = store2.intro();
+
+        System.out.println(store1Intro);
+        System.out.println(store2Intro);
     }
 }
 

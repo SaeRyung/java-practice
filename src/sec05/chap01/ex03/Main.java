@@ -10,6 +10,8 @@ public class Main {
         YalcoChicken store3 = new YalcoChicken(24, "제주");
 
         String[] intros = {store1.intro(), store2.intro(), store3.intro()};
+
+        System.out.println(intros);
     }
 }
 
