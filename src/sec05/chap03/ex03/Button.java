@@ -2,6 +2,7 @@ package sec05.chap03.ex03;
 
 public class Button {
 
+    //  static 메소드이기 때문에 Main에서 공통적으로 적용됌
     static String mode = "LIGHT";
 
     static void switchMode(){

@@ -9,6 +9,7 @@ public class Main {
         String ycContact = YalcoChicken.contact();
 
         // ⚠️ 인스턴스 메소드는 불가
+        //  본사에 가서 매장 찾기 불가
 //          String ycName = YalcoChicken.name;
 //          String ycIntro = YalcoChicken.intro();
 

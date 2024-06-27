@@ -12,8 +12,12 @@ public class Main {
         for (Button button : buttons) { button.place(); }
 
         //  연속으로 붙여넣어 실행해볼 것
-        Button.switchMode();
+        //  Button class의 switchMode 메서드 실행해서 mode 변경
+        Button.switchMode(); //  LIGHT -> DARK
+        System.out.println(Button.mode);
+        for (Button button : buttons) { button.place(); }
 
+        Button.switchMode();
         System.out.println(Button.mode);
         for (Button button : buttons) { button.place(); }
     }
