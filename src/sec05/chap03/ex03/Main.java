@@ -10,5 +10,11 @@ public class Main {
 
         System.out.println(Button.mode);
         for (Button button : buttons) { button.place(); }
+
+        //  연속으로 붙여넣어 실행해볼 것
+        Button.switchMode();
+
+        System.out.println(Button.mode);
+        for (Button button : buttons) { button.place(); }
     }
 }

@@ -15,7 +15,9 @@ public class YalcoChicken {
     YalcoChicken(String name){
         //  클래스 변수를 활용하여 생성마다 새 번호 부여(또는 위처럼)
         no = ++lastNo;
+        this.name = name;
     }
+
     String intro(){
         return "안녕하세요, %s, %d호, %s호점입니다.".formatted(brand, no, name);
     }

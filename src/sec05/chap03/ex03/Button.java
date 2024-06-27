@@ -1,7 +1,9 @@
 package sec05.chap03.ex03;
 
 public class Button {
+
     static String mode = "LIGHT";
+
     static void switchMode(){
         mode = mode.equals("LIGHT") ? "DARK" : "LIGHT";
     }
