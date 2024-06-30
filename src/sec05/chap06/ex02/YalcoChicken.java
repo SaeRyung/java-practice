@@ -1,4 +1,4 @@
-package sec05.chap05.ex01;
+package sec05.chap06.ex02;
 //  *상속
 public class YalcoChicken {
     //  protected 자손클래스 사용 가능

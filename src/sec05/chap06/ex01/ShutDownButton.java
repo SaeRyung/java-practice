@@ -1,6 +1,6 @@
-package sec05.chap05.ex02;
+package sec05.chap06.ex01;
 
-public class ShutDownButton extends Button{
+public class ShutDownButton extends Button {
     public ShutDownButton(){
         super("shutDown");
         //  💡 부모의 생성자 호출
