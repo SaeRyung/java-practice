@@ -18,6 +18,7 @@ public class Setting {
             //  ⭐️ 아직 인스턴스가 만들어지지 않았다면 생성
             //  - 프로그램에서 처음 호출시 실행됨
             if (setting == null) {
+                // 내부에서 사용하므로 private여도 가능
                 setting = new Setting();
             }
             return setting;
