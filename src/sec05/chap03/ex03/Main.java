@@ -9,7 +9,8 @@ public class Main {
         Button[] buttons = {button1, buttonPlus, buttonClear};
 
         System.out.println(Button.mode);
-        for (Button button : buttons) { button.place(); }
+        // Button 클래스 참조,  : button: 하나하나, buttons: 배열 변수
+        for (Button button_i : buttons) { button_i.place(); }
 
         //  연속으로 붙여넣어 실행해볼 것
         //  Button class의 switchMode 메서드 실행해서 mode 변경

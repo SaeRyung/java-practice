@@ -5,16 +5,17 @@ public class YalcoChicken {
     static String contact(){
         return "%s 입니다. 무엇을 도와드릴까요?".formatted(brand);
     }
+
     static  int lastNo = 0; // ⭐️
 
-//    int no;
-    int no = ++lastNo; // 이렇게 해도 됨
+    int no;
+//    int no = ++lastNo; // 이렇게 해도 됨
 
     String name;
 
     YalcoChicken(String name){
         //  클래스 변수를 활용하여 생성마다 새 번호 부여(또는 위처럼)
-//        no = ++lastNo;
+        no = ++lastNo;
         this.name = name;
     }
 

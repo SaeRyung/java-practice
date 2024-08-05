@@ -18,6 +18,7 @@ public class Product {
     //////////////////  Getter and Setter
     // alt + Insert 키
 
+    // name 반환. .get~~ 가져올 수 있도록.
     public String getName() {
         return name;
     }

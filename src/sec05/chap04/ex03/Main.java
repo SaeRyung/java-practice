@@ -3,7 +3,7 @@ package sec05.chap04.ex03;
 //  private로 막아놓은 객체들 접근할 수 있도록
 public class Main {
     public static void main(String[] args) {
-        Product ballPen = new Product("볼펜", 10000);
+        Product ballPen = new Product("볼펜", 1000);
 
         ballPen.setName("삼색볼펜");
         ballPen.setName("");
@@ -11,6 +11,6 @@ public class Main {
         int ballPenPrice = ballPen.getPrice();
 
         ballPen.setPrice(1500);
-//        ballPen.setPrice(1100);
+        ballPen.setPrice(1100);
     }
 }
