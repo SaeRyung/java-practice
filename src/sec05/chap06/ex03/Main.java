@@ -1,8 +1,8 @@
 package sec05.chap06.ex03;
 
 import sec05.chap05.ex03.FireSlime;
-import sec05.chap06.ex01.Button;
-import sec05.chap06.ex01.ShutDownButton;
+import sec05.chap06.ex00.Button;
+import sec05.chap06.ex00.ShutDownButton;
 import sec05.chap06.ex02.YalcoChicken;
 
 //  **Object 클래스 - 모든 클래스의 최고 조상
