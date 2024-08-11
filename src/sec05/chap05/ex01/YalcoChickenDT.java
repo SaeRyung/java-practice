@@ -14,7 +14,8 @@ public class YalcoChickenDT extends YalcoChicken {
     }
 
     public void takeDTOrder(){
-        System.out.printf("%d 호 %s 점 드라이브스루 주문 %s%n", no, name,
+        System.out.printf("%d 호 %s 점 드라이브스루 주문 %s%n",
+                no, name,
                 (driveThruOpen ? "받음" : "불가"));
     }
 }

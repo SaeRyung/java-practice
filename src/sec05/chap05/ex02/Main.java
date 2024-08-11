@@ -8,16 +8,23 @@ public class Main {
         ShutDownButton stdnButton = new ShutDownButton();
         ToggleButton tglButton = new ToggleButton("CapsLock", false);
 
-        entrButton.func();
+        entrButton.func(); //Enter 입력 적용
 
         System.out.println("\n- - - - -\n");
 
-        stdnButton.func();
+        stdnButton.func(); // 프로그램 종료
 
         System.out.println("\n- - - - -\n");
 
         tglButton.func();
+        /* CapsLock 입력 적용 //this.on->true
+        *  대문자 입력: ON */
         tglButton.func();
+        /* CapsLock 입력 적용 //this.on->false
+        * 대문자 입력: OFF*/
         tglButton.func();
+        /* CapsLock 입력 적용 //this.on->true
+        대문자 입력: ON
+        * */
     }
 }
